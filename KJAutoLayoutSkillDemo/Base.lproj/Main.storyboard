@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +17,64 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9y-pr-ZIo">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="Ru4-Fl-6gv"/>
+                                    <constraint firstAttribute="height" constant="30" id="nC9-xy-5z5"/>
+                                </constraints>
+                                <state key="normal" title="根据文字横向扩充父视图"/>
+                                <connections>
+                                    <action selector="extensionSuperViewHorizontalAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="auM-iA-y23"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9r-2e-woc">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="MdA-bQ-y2W"/>
+                                    <constraint firstAttribute="height" constant="30" id="lk6-Qe-3y9"/>
+                                </constraints>
+                                <state key="normal" title="根据文字纵向扩充父视图"/>
+                                <connections>
+                                    <action selector="extendSuperViewVerticalAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3YP-Rb-SwR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPt-lM-6bB">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="UNk-CT-Jv1"/>
+                                    <constraint firstAttribute="height" constant="30" id="gli-wH-jNL"/>
+                                </constraints>
+                                <state key="normal" title="scrollView自动布局横向"/>
+                                <connections>
+                                    <action selector="scrollViewAutolayoutHorizontalAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MnF-Bv-C3g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eey-wA-QFB">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KbD-hf-xoY"/>
+                                    <constraint firstAttribute="width" constant="188" id="e2n-HY-eRl"/>
+                                </constraints>
+                                <state key="normal" title="scrollView自动布局竖向"/>
+                                <connections>
+                                    <action selector="scrollViewAutoLayoutVerticalAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ngI-0o-fxA"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c9r-2e-woc" firstAttribute="centerX" secondItem="W9y-pr-ZIo" secondAttribute="centerX" id="1Sh-WS-afg"/>
+                            <constraint firstItem="W9y-pr-ZIo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="5Ld-J4-BfR"/>
+                            <constraint firstItem="eey-wA-QFB" firstAttribute="centerX" secondItem="fPt-lM-6bB" secondAttribute="centerX" id="Hft-hh-OVU"/>
+                            <constraint firstItem="c9r-2e-woc" firstAttribute="top" secondItem="W9y-pr-ZIo" secondAttribute="bottom" constant="44" id="Jxq-Ar-1CP"/>
+                            <constraint firstItem="W9y-pr-ZIo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bZ2-GJ-UAv"/>
+                            <constraint firstItem="eey-wA-QFB" firstAttribute="top" secondItem="fPt-lM-6bB" secondAttribute="bottom" constant="54" id="bjY-oe-wKR"/>
+                            <constraint firstItem="fPt-lM-6bB" firstAttribute="top" secondItem="c9r-2e-woc" secondAttribute="bottom" constant="54" id="n13-Kr-iJN"/>
+                            <constraint firstItem="fPt-lM-6bB" firstAttribute="centerX" secondItem="c9r-2e-woc" secondAttribute="centerX" id="xuS-Us-ON7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
 </document>

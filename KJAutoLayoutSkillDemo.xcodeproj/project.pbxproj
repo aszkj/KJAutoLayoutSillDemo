@@ -15,6 +15,14 @@
 		8DE4AE431EA6875800ADB31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AE411EA6875800ADB31A /* LaunchScreen.storyboard */; };
 		8DE4AE4E1EA6875800ADB31A /* KJAutoLayoutSkillDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE4D1EA6875800ADB31A /* KJAutoLayoutSkillDemoTests.m */; };
 		8DE4AE591EA6875800ADB31A /* KJAutoLayoutSkillDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE581EA6875800ADB31A /* KJAutoLayoutSkillDemoUITests.m */; };
+		8DE4AE691EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE671EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m */; };
+		8DE4AE6A1EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AE681EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib */; };
+		8DE4AE6E1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE6C1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m */; };
+		8DE4AE6F1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AE6D1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib */; };
+		8DE4AE731EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE711EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m */; };
+		8DE4AE741EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AE721EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib */; };
+		8DE4AE781EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE761EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m */; };
+		8DE4AE791EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE4AE771EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		8DE4AE541EA6875800ADB31A /* KJAutoLayoutSkillDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJAutoLayoutSkillDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE4AE581EA6875800ADB31A /* KJAutoLayoutSkillDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAutoLayoutSkillDemoUITests.m; sourceTree = "<group>"; };
 		8DE4AE5A1EA6875800ADB31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE4AE661EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutolayoutExtensionSuperViewDemoVC.h; sourceTree = "<group>"; };
+		8DE4AE671EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutolayoutExtensionSuperViewDemoVC.m; sourceTree = "<group>"; };
+		8DE4AE681EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutolayoutExtensionSuperViewDemoVC.xib; sourceTree = "<group>"; };
+		8DE4AE6B1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutolayoutExtensionSuperViewDemoTwoVC.h; sourceTree = "<group>"; };
+		8DE4AE6C1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutolayoutExtensionSuperViewDemoTwoVC.m; sourceTree = "<group>"; };
+		8DE4AE6D1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutolayoutExtensionSuperViewDemoTwoVC.xib; sourceTree = "<group>"; };
+		8DE4AE701EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutoLayoutScrollViewVC.h; sourceTree = "<group>"; };
+		8DE4AE711EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutoLayoutScrollViewVC.m; sourceTree = "<group>"; };
+		8DE4AE721EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutoLayoutScrollViewVC.xib; sourceTree = "<group>"; };
+		8DE4AE751EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutoLayoutScrollViewTwoVC.h; sourceTree = "<group>"; };
+		8DE4AE761EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutoLayoutScrollViewTwoVC.m; sourceTree = "<group>"; };
+		8DE4AE771EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutoLayoutScrollViewTwoVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +130,18 @@
 				8DE4AE411EA6875800ADB31A /* LaunchScreen.storyboard */,
 				8DE4AE441EA6875800ADB31A /* Info.plist */,
 				8DE4AE331EA6875800ADB31A /* Supporting Files */,
+				8DE4AE661EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.h */,
+				8DE4AE671EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m */,
+				8DE4AE681EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib */,
+				8DE4AE6B1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.h */,
+				8DE4AE6C1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m */,
+				8DE4AE6D1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib */,
+				8DE4AE701EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.h */,
+				8DE4AE711EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m */,
+				8DE4AE721EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib */,
+				8DE4AE751EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.h */,
+				8DE4AE761EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m */,
+				8DE4AE771EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib */,
 			);
 			path = KJAutoLayoutSkillDemo;
 			sourceTree = "<group>";
@@ -247,8 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE4AE431EA6875800ADB31A /* LaunchScreen.storyboard in Resources */,
+				8DE4AE741EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib in Resources */,
+				8DE4AE6F1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib in Resources */,
 				8DE4AE401EA6875800ADB31A /* Assets.xcassets in Resources */,
+				8DE4AE6A1EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib in Resources */,
 				8DE4AE3E1EA6875800ADB31A /* Main.storyboard in Resources */,
+				8DE4AE791EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +311,11 @@
 			files = (
 				8DE4AE3B1EA6875800ADB31A /* ViewController.m in Sources */,
 				8DE4AE381EA6875800ADB31A /* AppDelegate.m in Sources */,
+				8DE4AE6E1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m in Sources */,
+				8DE4AE731EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m in Sources */,
+				8DE4AE691EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m in Sources */,
 				8DE4AE351EA6875800ADB31A /* main.m in Sources */,
+				8DE4AE781EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
