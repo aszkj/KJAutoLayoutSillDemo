@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8591381EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591361EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m */; };
+		8D8591391EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591371EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib */; };
 		8DE4AE351EA6875800ADB31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE341EA6875800ADB31A /* main.m */; };
 		8DE4AE381EA6875800ADB31A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE371EA6875800ADB31A /* AppDelegate.m */; };
 		8DE4AE3B1EA6875800ADB31A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE3A1EA6875800ADB31A /* ViewController.m */; };
@@ -43,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D8591351EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutoLayoutContentCompressionHuggingDemoVC.h; sourceTree = "<group>"; };
+		8D8591361EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutoLayoutContentCompressionHuggingDemoVC.m; sourceTree = "<group>"; };
+		8D8591371EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutoLayoutContentCompressionHuggingDemoVC.xib; sourceTree = "<group>"; };
 		8DE4AE301EA6875800ADB31A /* KJAutoLayoutSkillDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJAutoLayoutSkillDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE4AE341EA6875800ADB31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DE4AE361EA6875800ADB31A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +147,9 @@
 				8DE4AE751EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.h */,
 				8DE4AE761EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m */,
 				8DE4AE771EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib */,
+				8D8591351EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.h */,
+				8D8591361EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m */,
+				8D8591371EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib */,
 			);
 			path = KJAutoLayoutSkillDemo;
 			sourceTree = "<group>";
@@ -278,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8591391EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib in Resources */,
 				8DE4AE431EA6875800ADB31A /* LaunchScreen.storyboard in Resources */,
 				8DE4AE741EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib in Resources */,
 				8DE4AE6F1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib in Resources */,
@@ -309,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8591381EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m in Sources */,
 				8DE4AE3B1EA6875800ADB31A /* ViewController.m in Sources */,
 				8DE4AE381EA6875800ADB31A /* AppDelegate.m in Sources */,
 				8DE4AE6E1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m in Sources */,
@@ -547,6 +557,7 @@
 				8DE4AE5F1EA6875800ADB31A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DE4AE601EA6875800ADB31A /* Build configuration list for PBXNativeTarget "KJAutoLayoutSkillDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +566,7 @@
 				8DE4AE621EA6875800ADB31A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DE4AE631EA6875800ADB31A /* Build configuration list for PBXNativeTarget "KJAutoLayoutSkillDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +575,7 @@
 				8DE4AE651EA6875800ADB31A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

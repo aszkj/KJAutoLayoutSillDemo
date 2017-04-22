@@ -58,13 +58,25 @@
                                     <action selector="scrollViewAutoLayoutVerticalAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ngI-0o-fxA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4W-l5-R7U">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="U7e-7E-3mR"/>
+                                    <constraint firstAttribute="height" constant="30" id="YdA-rS-dBC"/>
+                                </constraints>
+                                <state key="normal" title="防压缩防拉伸约束"/>
+                                <connections>
+                                    <action selector="contentHugCompressingAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oF4-zR-QX8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="c9r-2e-woc" firstAttribute="centerX" secondItem="W9y-pr-ZIo" secondAttribute="centerX" id="1Sh-WS-afg"/>
                             <constraint firstItem="W9y-pr-ZIo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="5Ld-J4-BfR"/>
+                            <constraint firstItem="s4W-l5-R7U" firstAttribute="centerX" secondItem="eey-wA-QFB" secondAttribute="centerX" id="7pf-we-51R"/>
                             <constraint firstItem="eey-wA-QFB" firstAttribute="centerX" secondItem="fPt-lM-6bB" secondAttribute="centerX" id="Hft-hh-OVU"/>
                             <constraint firstItem="c9r-2e-woc" firstAttribute="top" secondItem="W9y-pr-ZIo" secondAttribute="bottom" constant="44" id="Jxq-Ar-1CP"/>
+                            <constraint firstItem="s4W-l5-R7U" firstAttribute="top" secondItem="eey-wA-QFB" secondAttribute="bottom" constant="48" id="Tkh-Py-oxs"/>
                             <constraint firstItem="W9y-pr-ZIo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bZ2-GJ-UAv"/>
                             <constraint firstItem="eey-wA-QFB" firstAttribute="top" secondItem="fPt-lM-6bB" secondAttribute="bottom" constant="54" id="bjY-oe-wKR"/>
                             <constraint firstItem="fPt-lM-6bB" firstAttribute="top" secondItem="c9r-2e-woc" secondAttribute="bottom" constant="54" id="n13-Kr-iJN"/>

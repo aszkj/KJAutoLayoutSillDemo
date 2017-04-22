@@ -11,6 +11,7 @@
 #import "KJAutolayoutExtensionSuperViewDemoTwoVC.h"
 #import "KJAutoLayoutScrollViewVC.h"
 #import "KJAutoLayoutScrollViewTwoVC.h"
+#import "KJAutoLayoutContentCompressionHuggingDemoVC.h"
 
 @interface ViewController ()
 
@@ -38,10 +39,16 @@
     KJAutoLayoutScrollViewVC *autoLayoutScrollViewVC = [[KJAutoLayoutScrollViewVC alloc] init];
     [self presentViewController:autoLayoutScrollViewVC animated:YES completion:nil];
 }
+
 - (IBAction)scrollViewAutoLayoutVerticalAction:(id)sender {
     KJAutoLayoutScrollViewTwoVC *autoLayoutScrollViewTwoVC = [[KJAutoLayoutScrollViewTwoVC alloc] init];
     [self presentViewController:autoLayoutScrollViewTwoVC animated:YES completion:nil];
 
+}
+
+- (IBAction)contentHugCompressingAction:(id)sender {
+    KJAutoLayoutContentCompressionHuggingDemoVC *contentCompressionHuggingDemoVC = [[KJAutoLayoutContentCompressionHuggingDemoVC alloc] init];
+    [self presentViewController:contentCompressionHuggingDemoVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
