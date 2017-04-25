@@ -12,6 +12,7 @@
 #import "KJAutoLayoutScrollViewVC.h"
 #import "KJAutoLayoutScrollViewTwoVC.h"
 #import "KJAutoLayoutContentCompressionHuggingDemoVC.h"
+#import "KJAutoLayoutUsePriorityDemoVC.h"
 
 @interface ViewController ()
 
@@ -51,10 +52,10 @@
     [self presentViewController:contentCompressionHuggingDemoVC animated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+- (IBAction)proioryAction:(id)sender {
+    KJAutoLayoutUsePriorityDemoVC *usePriorityDemoVC = [[KJAutoLayoutUsePriorityDemoVC alloc] init];
+    [self presentViewController:usePriorityDemoVC animated:YES completion:nil];
 
+}
 
 @end

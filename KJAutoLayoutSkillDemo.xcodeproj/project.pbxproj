@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		8D8591381EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591361EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m */; };
 		8D8591391EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591371EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib */; };
+		8D85913D1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85913B1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.m */; };
+		8D85913E1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D85913C1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.xib */; };
+		8D8591421EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8591401EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.m */; };
+		8D8591431EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8591411EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.xib */; };
 		8DE4AE351EA6875800ADB31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE341EA6875800ADB31A /* main.m */; };
 		8DE4AE381EA6875800ADB31A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE371EA6875800ADB31A /* AppDelegate.m */; };
 		8DE4AE3B1EA6875800ADB31A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4AE3A1EA6875800ADB31A /* ViewController.m */; };
@@ -48,6 +52,12 @@
 		8D8591351EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutoLayoutContentCompressionHuggingDemoVC.h; sourceTree = "<group>"; };
 		8D8591361EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutoLayoutContentCompressionHuggingDemoVC.m; sourceTree = "<group>"; };
 		8D8591371EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutoLayoutContentCompressionHuggingDemoVC.xib; sourceTree = "<group>"; };
+		8D85913A1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutoLayoutRelativeDemoVC.h; sourceTree = "<group>"; };
+		8D85913B1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutoLayoutRelativeDemoVC.m; sourceTree = "<group>"; };
+		8D85913C1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutoLayoutRelativeDemoVC.xib; sourceTree = "<group>"; };
+		8D85913F1EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAutoLayoutUsePriorityDemoVC.h; sourceTree = "<group>"; };
+		8D8591401EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAutoLayoutUsePriorityDemoVC.m; sourceTree = "<group>"; };
+		8D8591411EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJAutoLayoutUsePriorityDemoVC.xib; sourceTree = "<group>"; };
 		8DE4AE301EA6875800ADB31A /* KJAutoLayoutSkillDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJAutoLayoutSkillDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE4AE341EA6875800ADB31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DE4AE361EA6875800ADB31A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +113,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D8591441EAED2C800156B28 /* AutoLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8DE4AE661EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.h */,
+				8DE4AE671EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m */,
+				8DE4AE681EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib */,
+				8DE4AE6B1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.h */,
+				8DE4AE6C1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m */,
+				8DE4AE6D1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib */,
+				8DE4AE701EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.h */,
+				8DE4AE711EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m */,
+				8DE4AE721EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib */,
+				8DE4AE751EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.h */,
+				8DE4AE761EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m */,
+				8DE4AE771EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib */,
+				8D8591351EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.h */,
+				8D8591361EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m */,
+				8D8591371EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib */,
+				8D85913A1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.h */,
+				8D85913B1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.m */,
+				8D85913C1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.xib */,
+				8D85913F1EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.h */,
+				8D8591401EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.m */,
+				8D8591411EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.xib */,
+			);
+			name = AutoLayoutDemo;
+			sourceTree = "<group>";
+		};
 		8DE4AE271EA6875800ADB31A = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +164,7 @@
 		8DE4AE321EA6875800ADB31A /* KJAutoLayoutSkillDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8D8591441EAED2C800156B28 /* AutoLayoutDemo */,
 				8DE4AE361EA6875800ADB31A /* AppDelegate.h */,
 				8DE4AE371EA6875800ADB31A /* AppDelegate.m */,
 				8DE4AE391EA6875800ADB31A /* ViewController.h */,
@@ -135,21 +174,6 @@
 				8DE4AE411EA6875800ADB31A /* LaunchScreen.storyboard */,
 				8DE4AE441EA6875800ADB31A /* Info.plist */,
 				8DE4AE331EA6875800ADB31A /* Supporting Files */,
-				8DE4AE661EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.h */,
-				8DE4AE671EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m */,
-				8DE4AE681EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib */,
-				8DE4AE6B1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.h */,
-				8DE4AE6C1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m */,
-				8DE4AE6D1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib */,
-				8DE4AE701EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.h */,
-				8DE4AE711EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m */,
-				8DE4AE721EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib */,
-				8DE4AE751EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.h */,
-				8DE4AE761EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m */,
-				8DE4AE771EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.xib */,
-				8D8591351EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.h */,
-				8D8591361EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.m */,
-				8D8591371EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib */,
 			);
 			path = KJAutoLayoutSkillDemo;
 			sourceTree = "<group>";
@@ -287,9 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D8591391EA964D400156B28 /* KJAutoLayoutContentCompressionHuggingDemoVC.xib in Resources */,
+				8D85913E1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.xib in Resources */,
 				8DE4AE431EA6875800ADB31A /* LaunchScreen.storyboard in Resources */,
 				8DE4AE741EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.xib in Resources */,
 				8DE4AE6F1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.xib in Resources */,
+				8D8591431EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.xib in Resources */,
 				8DE4AE401EA6875800ADB31A /* Assets.xcassets in Resources */,
 				8DE4AE6A1EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.xib in Resources */,
 				8DE4AE3E1EA6875800ADB31A /* Main.storyboard in Resources */,
@@ -324,8 +350,10 @@
 				8DE4AE6E1EA6B9D200ADB31A /* KJAutolayoutExtensionSuperViewDemoTwoVC.m in Sources */,
 				8DE4AE731EA6D56B00ADB31A /* KJAutoLayoutScrollViewVC.m in Sources */,
 				8DE4AE691EA6878F00ADB31A /* KJAutolayoutExtensionSuperViewDemoVC.m in Sources */,
+				8D85913D1EAE6F5900156B28 /* KJAutoLayoutRelativeDemoVC.m in Sources */,
 				8DE4AE351EA6875800ADB31A /* main.m in Sources */,
 				8DE4AE781EA6E51900ADB31A /* KJAutoLayoutScrollViewTwoVC.m in Sources */,
+				8D8591421EAE776900156B28 /* KJAutoLayoutUsePriorityDemoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
